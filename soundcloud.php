@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL & ~E_NOTICE);
 $sound_name = end(explode("/",parse_url($_GET['url'], PHP_URL_PATH)));
 $client_id = ""; // YOU CLIENT ID
 $secret_key = ""; // YOU SECRET KEY
